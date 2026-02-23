@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Сейчас | Главные новости дня</title>
+  <meta name="description" content="Актуальные новости России и мира. Политика, экономика, технологии, общество — онлайн 24/7">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="logo">Сейчас<span>24</span></a>
+
+        <nav class="nav">
+          <a href="#politics">Политика</a>
+          <a href="#economy">Экономика</a>
+          <a href="#tech">Технологии</a>
+          <a href="#world">Мир</a>
+          <a href="#society">Общество</a>
+        </nav>
+
+        <button class="theme-toggle" aria-label="Переключить тему">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Главный блок -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <article class="hero-main">
+            <span class="category">Мир</span>
+            <h1>Новый раунд переговоров по климату завершился без прорыва</h1>
+            <p class="lead">Страны не смогли договориться о новых жёстких ограничениях выбросов к 2035 году — основные разногласия между глобальным Севером и Югом.</p>
+            <time datetime="2026-02-22">22 февраля 2026</time>
+          </article>
+
+          <div class="hero-side">
+            <article>
+              <span class="category">Технологии</span>
+              <h3>Квантовый чип с 1000+ кубитами представлен в Китае</h3>
+              <time datetime="2026-02-23">Сегодня</time>
+            </article>
+            <article>
+              <span class="category">Экономика</span>
+              <h3>Нефть Brent впервые с 2023 года опустилась ниже $58</h3>
+              <time datetime="2026-02-22">Вчера</time>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Лента новостей -->
+    <section class="news-feed">
+      <div class="container">
+        <h2 class="section-title">Последние новости</h2>
+
+        <div class="news-grid">
+          <article class="news-card">
+            <span class="category">Политика</span>
+            <h3>В Госдуме предложили ввести прогрессивный налог на сверхдоходы</h3>
+            <p>Ставка может достигать 25% для доходов свыше 1 млрд рублей в год...</p>
+            <time datetime="2026-02-23">2 часа назад</time>
+          </article>
+
+          <article class="news-card">
+            <span class="category">Технологии</span>
+            <h3>Apple представила AR-очки 3-го поколения с ИИ-ассистентом</h3>
+            <p>Главное новшество — полностью автономная работа без iPhone...</p>
+            <time datetime="2026-02-22">Вчера</time>
+          </article>
+
+          <article class="news-card">
+            <span class="category">Общество</span>
+            <h3>Средняя продолжительность жизни в России превысила 74 года</h3>
+            <p>По данным Росстата — лучший показатель за всю историю наблюдений...</p>
+            <time datetime="2026-02-21">Позавчера</time>
+          </article>
+
+          <article class="news-card">
+            <span class="category">Мир</span>
+            <h3>ЕС одобрил 14-й пакет санкций против РФ</h3>
+            <p>В список попали ещё 47 физлиц и 18 компаний...</p>
+            <time datetime="2026-02-23">Сегодня</time>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Сейчас24 — информационное агентство. Все права защищены.</p>
+      <p>Использование материалов разрешено только при наличии активной гиперссылки.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
